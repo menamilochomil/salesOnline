@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import styles from "../src/app/page.module.css";
 
 export default function Products () {
     
@@ -13,11 +14,11 @@ const [dataProducts, setDataProducts] = useState([]);
     return (
         <>
          {dataProducts.map((product) => 
-         <section key={product.id}>
-            <p >{product.title}</p>
+         <div key={product.id} className= {styles.products}>
+            <p>{product.title}</p>
             <p> {product.description}</p>
             <p> {product.price}</p>
-         </section>
+         </div>
          )}
         </>
     )
