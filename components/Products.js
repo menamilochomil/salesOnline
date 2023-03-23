@@ -17,7 +17,7 @@ const [dataProducts, setDataProducts] = useState([]);
          <div key={product.id} className= {styles.products}>
             <p>{product.title}</p>
             <p> {product.description}</p>
-            <p> {product.price}</p>
+            <p> ${product.price}</p>
          </div>
          )}
         </>
