@@ -9,6 +9,24 @@
     gap: .5%;
 }
 
+.header{
+  position: absolute;
+  top:0;
+
+}
+.circule{
+  border-radius: 100%;
+    width: 3.15rem;
+    height: 3.15rem;
+    background: yellow;
+    position: absolute;
+    top: 1px;
+    left: -50px;
+}
+.salesOnline{
+  font-size: 3rem;
+}
+
 .products{
   width: 7rem;
   height: 8.5rem;
